@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:dev": "tsc -p tsconfig.json & copy src\\index.html dist\\index.html"
+    "build:dev": "tsc -p tsconfig.json"
   },
   "author": "",
   "license": "MIT",

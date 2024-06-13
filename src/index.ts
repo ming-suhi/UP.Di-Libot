@@ -217,19 +217,39 @@ function* getCoordinates(data: Iterable<Raw.TimelineObject>): IterableIterator<P
 // Main interface
 const fileInput = document.getElementById('fileInput') as HTMLInputElement;
 
+// Initalize the map on the div with id "map"
+const map = L.map('map').setView(CENTER_COORDINATE, 16);
+
+// Add the base layer(ESRI World Imagery Tile) to the map
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+  attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+}).addTo(map);
+
+const checkbox = document.getElementById("agreed") as HTMLInputElement;
+const fileLabel = document.querySelector(".file-label") as HTMLLabelElement;
+
+fileLabel.style.pointerEvents = "none";
+
+checkbox.addEventListener("change", function() {
+    if (checkbox.checked) {
+        fileLabel.style.pointerEvents = "auto";
+    } else {
+        fileLabel.style.pointerEvents = "none";
+    }
+});
+
+const overlay = document.querySelector("#overlay") as HTMLDivElement;
+const loading = document.querySelector("#loading") as HTMLDivElement;
+const ui = document.querySelector("#prompt") as HTMLDivElement;
+
 fileInput.addEventListener('change', async () => {
   if (!fileInput.files || fileInput.files.length === 0) {
     alert('No files selected.');
     return;
   }
 
-  // Initalize the map on the div with id "map"
-  const map = L.map('map').setView(CENTER_COORDINATE, 16);
-
-  // Add the base layer(ESRI World Imagery Tile) to the map
-  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-  }).addTo(map);
+  ui.style.display = "none";
+  loading.style.display = "flex";
 
   // Process the files
   const timelineObjects = new Array<Raw.TimelineObject>();
@@ -254,5 +274,7 @@ fileInput.addEventListener('change', async () => {
         "fillOpacity": 0.9
       }
     }).addTo(map);
+
+    overlay.style.display = "none";
   };
 });
