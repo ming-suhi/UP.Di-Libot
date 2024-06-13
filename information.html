@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            color: #1b1f23;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+        }
+        #main {
+            position: absolute;
+            z-index: 1;
+            width: 100vw;
+            min-height: 100vh;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #header {
+            position: absolute;
+            z-index: 2;
+            width: 100vw;
+            height: 50px;
+            background-color: #fff;
+            border-bottom: 1px solid #ececec;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        #content {
+          margin-top: 60px;
+          width: 800px;
+        }
+        
+        .flex.col {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .flex.row {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+        }
+        .flex.center {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header" class="flex row">
+      <div class="flex row" style="width: 800px; justify-content: space-between;">
+        <div class="flex row">
+          <div class="flex center">
+            <text style="font-size: medium;">Project Information</text>
+          </div>
+        </div>
+        <div class="flex row">
+          <a class="flex center" style="margin-left: 20px;" href="index.html" target="_blank">
+            <text style="font-size: medium;">Generate Map</text>
+            <img src="map.png" style="width:25px; height: 24px; margin-left: 5px">
+          </a>
+          <a class="flex center" style="margin-left: 20px;" href="https://github.com/ming-suhi" target="_blank">
+            <text style="font-size: medium;">Repository</text>
+            <img src="github.svg" style="width:25px; height: 25px; margin-left: 5px">
+          </a>
+        </div>
+      </div>
+      
+    </div>
+    <div id="main">
+      <div id="content" class="flex row">
+        <h1>Project Title</h1>
+      </div>
+    </div>
+</body>
+</html>
