@@ -236,7 +236,7 @@ var servicesPolygon = [];
 for (let place of INSTITUTES) {
     L.geoJSON(place.geometry, {
         style: { "color": "blue", "weight": 0, "fillOpacity": 0 }
-    }).bindTooltip("Institue").addTo(map);
+    }).bindTooltip("Institute").addTo(map);
     intitutesPolygon.push(L.geoJSON(place.geometry, {
         style: { "color": "blue", "weight": 1, "fillOpacity": 0.4 }
     }));
