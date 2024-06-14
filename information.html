@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.1">
-    <title>Map Viewer</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>UP Di-Libot</title>
     <style>
         * {
             margin: 0;
@@ -70,7 +71,7 @@
             margin-bottom: 30px;
             line-height: 2;
           }
-          ol {
+          ol, ul {
             list-style-position: inside;
           }
           a {
@@ -110,25 +111,26 @@
         <text>
           The project hails from low-resolution satellite imagery provided by <a href="https://www.esri.com/en-us/home" target="_blank">ESRI</a>, serving as the orthophoto referenced by the other integrated, makeshift data layers, such as:
           <ul>
-            <li>the borders of UP Diliman and its neighboring sites,</li>
-            <li>the polygon representations of relevant infrastructures,</li>
-            <li>and the buffered coordinates to form a conglomerate of circles, showing the sites visited.</li>
+            <li>the borders of UP Diliman and its neighboring sites,<img src="layer-boundary.png" style="width: 1000px;"></li>
+            <li>the polygon representations of relevant infrastructures,<img src="layer-institutes.png" style="width: 1000px;"></li>
+            <li>and the buffered coordinates to form a conglomerate of circles, showing the sites visited.<img src="layer-points.png" style="width: 1000px;"></li>
           </ul>
         </text>
         <text>
           The web application utilizes several spatial querying techniques in order to generate a white mask that blurs unexplored areas
           <ul>
-            <li>Filter</li>
-            <li>Buffer</li>
-            <li>Union</li>
-            <li>Difference</li>
+            <li>Filter - the borders of UP is used to select only the points within the borders</li>
+            <li>Buffer - the points are then transformed to circle polygons with a set constant buffer radius</li>
+            <li>Union - a single multi-polygon object is created after the points are combined</li>
+            <li>Difference - the combined points are subtracted from the box polygon covering the whole map - revealing the explored areas</li>
           </ul>
         </text>
+        <img src="layer-mask.png" style="width: 1000px;">
         <text>
           The project was only made possible because of several open-sources projects that made the development easier.
           <ul>
-            <li><a href="https://leafletjs.com/reference.html" target="_blank">Leaflet</a></li>
-            <li><a href="https://turfjs.org/" target="_blank">Turf.js</a></li>
+            <li><a href="https://leafletjs.com/reference.html" target="_blank">Leaflet</a> is responsible for the interactive map including the map controls(base layer, overlay, zoom).</li>
+            <li><a href="https://turfjs.org/" target="_blank">Turf.js</a> provided spatial querying functions and for creating the geometries and features of the overlays.</li>
           </ul>
         </text>
         <h3>III. Downloading you data from Google</h3>
