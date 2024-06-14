@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
     <title>Map Viewer</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -82,12 +82,12 @@
             <h1>Naikot mo na ba talaga ang UP Diliman?</h1>
             <div>
                 <input type="checkbox" id="agreed">
-                <text>I have read the <a href="information.html">project information</a> and how it works.</text>
+                <text>I have read the <a href="information.html" target="_self">project information</a> and how it works.</text>
             </div>
             <input type="file" id="fileInput" webkitdirectory multiple class="hidden-input">
             <label for="fileInput" class="file-label">Generate My Map</label>
             <text style="margin-top: 30px">Don't have your own data?</text>
-            <text><a href="sample.html" target="_blank">Generate map using sample data</a></text>
+            <div id="generate-sample" style="cursor: pointer;"><a>Generate map using sample data</a></div>
         </div>
     </div>
 </body>

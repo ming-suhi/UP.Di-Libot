@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
     <title>Map Viewer</title>
     <style>
         * {
@@ -10,6 +10,7 @@
             color: #1b1f23;
             font-family: Arial, sans-serif;
             text-decoration: none;
+            overflow-x: hidden;
         }
         #main {
             position: absolute;
@@ -53,6 +54,26 @@
           align-items: center;
         }
 
+        #content {
+          h1 {
+            margin: 50px 0 20px 0;
+          }
+          h2 {
+            font-size: large;
+            margin-bottom: 60px;
+            font-weight: lighter;
+          }
+          h3 {
+            margin-bottom: 30px;
+          }
+          text {
+            margin-bottom: 30px;
+            line-height: 2;
+          }
+          ol {
+            list-style-position: inside;
+          }
+        }
     </style>
 </head>
 <body>
@@ -64,7 +85,7 @@
           </div>
         </div>
         <div class="flex row">
-          <a class="flex center" style="margin-left: 20px;" href="index.html" target="_blank">
+          <a class="flex center" style="margin-left: 20px;" href="index.html">
             <text style="font-size: medium;">Generate Map</text>
             <img src="map.png" style="width:25px; height: 24px; margin-left: 5px">
           </a>
@@ -77,8 +98,59 @@
       
     </div>
     <div id="main">
-      <div id="content" class="flex row">
-        <h1>Project Title</h1>
+      <div id="content" class="flex col" style="align-items: flex-start;">
+        <h1>UP Di-Libot: Your UP Diliman Lakwatsa Checklist</h1>
+        <h2>Kyle Joseph Taton • Jose Mari Mangalindan • Last Updated June 14, 2024</h2>
+        <h3>I. Project Description</h3>
+        <text>The web application maps out a UPD student’s “visiting checklist” by gathering the user’s location history data from Google Maps and marking all locations visited within the bounds of UP Diliman. After inputting the history data, the website displays a masked map of UP Diliman presenting all locations that Google Maps has tracked. In addition, another layer displays the names of buildings and institutes the user has already visited; therefore, displaying all the landmarks visited and blurring sites that have not been explored.</text>
+        <h3>II. How It Works</h3>
+        <text>
+          The project hails from low-resolution satellite imagery provided by ESRI, serving as the orthophoto referenced by the other integrated, makeshift data layers, such as:
+          <ul>
+            <li>the borders of UP Diliman and its neighboring sites,</li>
+            <li>the polygon representations of relevant infrastructures,</li>
+            <li>and the buffered coordinates to form a conglomerate of circles, showing the sites visited.</li>
+          </ul>
+        </text>
+        <text>
+          The web application utilizes several spatial querying techniques in order to generate a white mask that blurs unexplored areas
+          <ul>
+            <li>Filter</li>
+            <li>Buffer</li>
+            <li>Union</li>
+            <li>Difference</li>
+          </ul>
+        </text>
+        <text>
+          The project was only made possible because of several open-sources projects that made the development easier.
+          <ul>
+            <li>Leaflet</li>
+            <li>Turf.js</li>
+          </ul>
+        </text>
+        <h3>III. Downloading you data from Google</h3>
+        <text>
+          <ol>
+            <li>Go to <a href="https://takeout.google.com/settings/takeout">Google Takeout</a></li>
+            <li>Under "Select data to include", select ONLY "Location History (Timeline)"</li>
+            <li>Click "Next Step"</li>
+            <li>Select the following:<br>Transfer to: Send download link via email<br>Frequency: Export once<br>File type: .zip<br>File size: 2GB</li>
+            <li>Press "Create Export"</li>
+            <li>Wait for an email from Google Takeout containing the download link</li>
+            <li>Download the .zip file/s</li>
+            <li>Extract the files</li>
+            <li>If given multiple .zip files, combine the contents of the "Semantic Location History" folders in a single folder</li>
+          </ol>
+        </text>
+        <h3>IV. Using the Web Application</h3>
+        <text>Using the web application is easy. Simply tick the required checbox and press the "Generate My Map" button and select the folder named "Semantic Location History". Note that your data is not uploaded to any server and processing is done by your computer, locally.</text>
+        <h3>V. Considerations</h3>
+        <text>A. Data Usage</text>
+        <text>Google Maps requires location access, mobile data usage, and especially, timeline recording permission from the user; the web application relies on recorded coordinates by the application as input to produce the map. If location history is turned off, then the user will not be able to see the mapped version of their visited sites.</text>
+        <text>B. Temporal Limitations</text>
+        <text>Since Google Maps tallies coordinates in irregular time intervals because of poor internet connectivity, it may not pinpoint locations that have already been visited due to said circumstance. Thus, a buffer radius is used to account for time-recording differences.</text>
+        <text>C. Spatial Accuracy</text>
+        <text>Because the Google Maps cannot accurately pinpoint the locations already visited by the user, the web application uses a normalized buffer to standardize the grace radius of the coordinates marked by Google Maps, forming a circle union. This creates an expected masked map of visited locations, as long as the map history data of the user has records of the visits.</text>
       </div>
     </div>
 </body>
