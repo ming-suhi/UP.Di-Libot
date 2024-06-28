@@ -164,13 +164,15 @@ function validateTimelineObject(timelineObject: any): timelineObject is Raw.Time
   return false;
 }
 
+const FILE_REGEX = /^\d{4}_(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\.json$/;
+
 /**
  * Reads the uploaded files and transforms the data to JS objects
  * @param files Files uploaded by the user
  */
 async function* parseFiles(files: FileList): AsyncIterableIterator<Raw.TimelineObject> {
   for (let file of Array.from(files)) {
-    if (file.type === 'application/json') {
+    if (file.type === 'application/json' && FILE_REGEX.test(file.name)) {
       try {
         const content = await file.text();
         const json: Raw.SemanticLocationHistory = JSON.parse(content);
