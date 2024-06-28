@@ -19,95 +19,95 @@ const BOUNDARY = {
  * Polygon representations of the institutes
  */
 const INSTITUTES = [
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.060807,14.66025],[121.060807,14.661246],[121.061922,14.661246],[121.061922,14.66025],[121.060807,14.66025]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.062298,14.658911],[121.062298,14.659658],[121.063499,14.659658],[121.063499,14.658911],[121.062298,14.658911]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.063821,14.657743],[121.063821,14.658579],[121.064674,14.658579],[121.064674,14.657743],[121.063821,14.657743]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.065329,14.657644],[121.065329,14.658324],[121.066412,14.658324],[121.066412,14.657644],[121.065329,14.657644]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.070774,14.657702],[121.070774,14.658252],[121.071455,14.658252],[121.071455,14.657702],[121.070774,14.657702]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.059884,14.656088],[121.059884,14.656819],[121.060951,14.656819],[121.060951,14.656088],[121.059884,14.656088]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.061177,14.656928],[121.061177,14.657587],[121.062174,14.657587],[121.062174,14.656928],[121.061177,14.656928]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.062582,14.656788],[121.062582,14.657427],[121.063231,14.657427],[121.063231,14.656788],[121.062582,14.656788]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.063778,14.656928],[121.063778,14.657556],[121.06424,14.657556],[121.06424,14.656928],[121.063778,14.656928]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.064315,14.656985],[121.064315,14.657354],[121.064744,14.657354],[121.064744,14.656985],[121.064315,14.656985]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.064267,14.656477],[121.064267,14.656944],[121.064712,14.656944],[121.064712,14.656477],[121.064267,14.656477]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.065216,14.65644],[121.065216,14.656856],[121.065736,14.656856],[121.065736,14.65644],[121.065216,14.65644]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.068703,14.656217],[121.068703,14.65683],[121.070387,14.65683],[121.070387,14.656217],[121.068703,14.656217]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.070768,14.656928],[121.070768,14.657416],[121.071503,14.657416],[121.071503,14.656928],[121.070768,14.656928]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.070758,14.656311],[121.070758,14.656835],[121.071503,14.656835],[121.071503,14.656311],[121.070758,14.656311]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.071895,14.656882],[121.071895,14.657214],[121.072388,14.657214],[121.072388,14.656882],[121.071895,14.656882]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.071712,14.656326],[121.071712,14.656887],[121.07263,14.656887],[121.07263,14.656326],[121.071712,14.656326]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.072844,14.656882],[121.072844,14.657271],[121.073263,14.657271],[121.073263,14.656882],[121.072844,14.656882]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.073016,14.655994],[121.073016,14.656466],[121.073488,14.656466],[121.073488,14.655994],[121.073016,14.655994]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.065039,14.654302],[121.065039,14.655486],[121.065248,14.655486],[121.065248,14.654302],[121.065039,14.654302]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.070854,14.65451],[121.070854,14.655527],[121.07145,14.655527],[121.07145,14.65451],[121.070854,14.65451]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.073263,14.654951],[121.073263,14.655532],[121.073858,14.655532],[121.073858,14.654951],[121.073263,14.654951]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.073375,14.653825],[121.073375,14.654614],[121.073949,14.654614],[121.073949,14.653825],[121.073375,14.653825]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.06123,14.652154],[121.06123,14.652704],[121.062282,14.652704],[121.062282,14.652154],[121.06123,14.652154]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.06248,14.652413],[121.06248,14.652813],[121.063435,14.652813],[121.063435,14.652413],[121.06248,14.652413]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.067496,14.653114],[121.067496,14.653534],[121.068456,14.653534],[121.068456,14.653114],[121.067496,14.653114]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.067174,14.652434],[121.067174,14.652849],[121.067721,14.652849],[121.067721,14.652434],[121.067174,14.652434]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.068837,14.653134],[121.068837,14.653731],[121.070618,14.653731],[121.070618,14.653134],[121.068837,14.653134]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.06874,14.652512],[121.06874,14.65315],[121.070629,14.65315],[121.070629,14.652512],[121.06874,14.652512]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.070811,14.6526],[121.070811,14.652984],[121.071557,14.652984],[121.071557,14.6526],[121.070811,14.6526]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.071739,14.652678],[121.071739,14.653254],[121.072732,14.653254],[121.072732,14.652678],[121.071739,14.652678]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.073016,14.652579],[121.073016,14.653446],[121.074073,14.653446],[121.074073,14.652579],[121.073016,14.652579]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.067249,14.651302],[121.067249,14.652138],[121.068462,14.652138],[121.068462,14.651302],[121.067249,14.651302]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.07286,14.651515],[121.07286,14.652299],[121.073799,14.652299],[121.073799,14.651515],[121.07286,14.651515]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.068896,14.650119],[121.068896,14.651084],[121.069331,14.651084],[121.069331,14.650119],[121.068896,14.650119]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.070344,14.650405],[121.070344,14.651214],[121.071138,14.651214],[121.071138,14.650405],[121.070344,14.650405]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.071299,14.650565],[121.071299,14.650882],[121.07197,14.650882],[121.07197,14.650565],[121.071299,14.650565]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.072716,14.650607],[121.072716,14.651095],[121.073558,14.651095],[121.073558,14.650607],[121.072716,14.650607]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.068038,14.649117],[121.068038,14.649989],[121.068601,14.649989],[121.068601,14.649117],[121.068038,14.649117]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.069229,14.648993],[121.069229,14.649507],[121.069749,14.649507],[121.069749,14.648993],[121.069229,14.648993]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.070999,14.649564],[121.070999,14.649906],[121.071444,14.649906],[121.071444,14.649564],[121.070999,14.649564]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.067448,14.647763],[121.067448,14.648521],[121.068263,14.648521],[121.068263,14.647763],[121.067448,14.647763]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.068349,14.648303],[121.068349,14.648936],[121.068821,14.648936],[121.068821,14.648303],[121.068349,14.648303]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.069159,14.64769],[121.069159,14.648417],[121.069872,14.648417],[121.069872,14.64769],[121.069159,14.64769]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.071042,14.64824],[121.071042,14.648905],[121.072211,14.648905],[121.072211,14.64824],[121.071042,14.64824]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.072576,14.648593],[121.072576,14.649527],[121.073617,14.649527],[121.073617,14.648593],[121.072576,14.648593]]]}},
+    {"type":"Feature","properties":{name: "Asian Institute of Tourism"},"geometry":{"type":"Polygon","coordinates":[[[121.060807,14.66025],[121.060807,14.661246],[121.061922,14.661246],[121.061922,14.66025],[121.060807,14.66025]]]}},
+    {"type":"Feature","properties":{name: "Ylanan Hall"},"geometry":{"type":"Polygon","coordinates":[[[121.062298,14.658911],[121.062298,14.659658],[121.063499,14.659658],[121.063499,14.658911],[121.062298,14.658911]]]}},
+    {"type":"Feature","properties":{name: "UP-DCMT Vanguard Building"},"geometry":{"type":"Polygon","coordinates":[[[121.063821,14.657743],[121.063821,14.658579],[121.064674,14.658579],[121.064674,14.657743],[121.063821,14.657743]]]}},
+    {"type":"Feature","properties":{name: "Fonacier Hall"},"geometry":{"type":"Polygon","coordinates":[[[121.065329,14.657644],[121.065329,14.658324],[121.066412,14.658324],[121.066412,14.657644],[121.065329,14.657644]]]}},
+    {"type":"Feature","properties":{name: "Old School of Statistics"},"geometry":{"type":"Polygon","coordinates":[[[121.070774,14.657702],[121.070774,14.658252],[121.071455,14.658252],[121.071455,14.657702],[121.070774,14.657702]]]}},
+    {"type":"Feature","properties":{name: "National College of Public Administration"},"geometry":{"type":"Polygon","coordinates":[[[121.059884,14.656088],[121.059884,14.656819],[121.060951,14.656819],[121.060951,14.656088],[121.059884,14.656088]]]}},
+    {"type":"Feature","properties":{name: "School of Labor and Industrial Relations"},"geometry":{"type":"Polygon","coordinates":[[[121.061177,14.656928],[121.061177,14.657587],[121.062174,14.657587],[121.062174,14.656928],[121.061177,14.656928]]]}},
+    {"type":"Feature","properties":{name: "School of Urban and Regional Planning"},"geometry":{"type":"Polygon","coordinates":[[[121.062582,14.656788],[121.062582,14.657427],[121.063231,14.657427],[121.063231,14.656788],[121.062582,14.656788]]]}},
+    {"type":"Feature","properties":{name: "College of Social Work and Community Development"},"geometry":{"type":"Polygon","coordinates":[[[121.063778,14.656928],[121.063778,14.657556],[121.06424,14.657556],[121.06424,14.656928],[121.063778,14.656928]]]}},
+    {"type":"Feature","properties":{name: "Center for Women's Studies"},"geometry":{"type":"Polygon","coordinates":[[[121.064315,14.656985],[121.064315,14.657354],[121.064744,14.657354],[121.064744,14.656985],[121.064315,14.656985]]]}},
+    {"type":"Feature","properties":{name: "College of Mass Communication"},"geometry":{"type":"Polygon","coordinates":[[[121.064267,14.656477],[121.064267,14.656944],[121.064712,14.656944],[121.064712,14.656477],[121.064267,14.656477]]]}},
+    {"type":"Feature","properties":{name: "College of Music"},"geometry":{"type":"Polygon","coordinates":[[[121.065216,14.65644],[121.065216,14.656856],[121.065736,14.656856],[121.065736,14.65644],[121.065216,14.65644]]]}},
+    {"type":"Feature","properties":{name: "Melchor Hall"},"geometry":{"type":"Polygon","coordinates":[[[121.068703,14.656217],[121.068703,14.65683],[121.070387,14.65683],[121.070387,14.656217],[121.068703,14.656217]]]}},
+    {"type":"Feature","properties":{name: "National Center for Transportation Studies"},"geometry":{"type":"Polygon","coordinates":[[[121.070768,14.656928],[121.070768,14.657416],[121.071503,14.657416],[121.071503,14.656928],[121.070768,14.656928]]]}},
+    {"type":"Feature","properties":{name: "National Engineering Center"},"geometry":{"type":"Polygon","coordinates":[[[121.070758,14.656311],[121.070758,14.656835],[121.071503,14.656835],[121.071503,14.656311],[121.070758,14.656311]]]}},
+    {"type":"Feature","properties":{name: "Bacobo Hall"},"geometry":{"type":"Polygon","coordinates":[[[121.071895,14.656882],[121.071895,14.657214],[121.072388,14.657214],[121.072388,14.656882],[121.071895,14.656882]]]}},
+    {"type":"Feature","properties":{name: "Malcolm Hall"},"geometry":{"type":"Polygon","coordinates":[[[121.071712,14.656326],[121.071712,14.656887],[121.07263,14.656887],[121.07263,14.656326],[121.071712,14.656326]]]}},
+    {"type":"Feature","properties":{name: "Institute of Islamic Studies"},"geometry":{"type":"Polygon","coordinates":[[[121.072844,14.656882],[121.072844,14.657271],[121.073263,14.657271],[121.073263,14.656882],[121.072844,14.656882]]]}},
+    {"type":"Feature","properties":{name: "School of Economics"},"geometry":{"type":"Polygon","coordinates":[[[121.073016,14.655994],[121.073016,14.656466],[121.073488,14.656466],[121.073488,14.655994],[121.073016,14.655994]]]}},
+    {"type":"Feature","properties":{name: "Quezon Hall"},"geometry":{"type":"Polygon","coordinates":[[[121.065039,14.654302],[121.065039,14.655486],[121.065248,14.655486],[121.065248,14.654302],[121.065039,14.654302]]]}},
+    {"type":"Feature","properties":{name: "Bulwagan ng Dangal (UP Main Library)"},"geometry":{"type":"Polygon","coordinates":[[[121.070854,14.65451],[121.070854,14.655527],[121.07145,14.655527],[121.07145,14.65451],[121.070854,14.65451]]]}},
+    {"type":"Feature","properties":{name: "College of Business Administration"},"geometry":{"type":"Polygon","coordinates":[[[121.073263,14.654951],[121.073263,14.655532],[121.073858,14.655532],[121.073858,14.654951],[121.073263,14.654951]]]}},
+    {"type":"Feature","properties":{name: "Vinzons Hall"},"geometry":{"type":"Polygon","coordinates":[[[121.073375,14.653825],[121.073375,14.654614],[121.073949,14.654614],[121.073949,14.653825],[121.073375,14.653825]]]}},
+    {"type":"Feature","properties":{name: "College of Fine Arts"},"geometry":{"type":"Polygon","coordinates":[[[121.06123,14.652154],[121.06123,14.652704],[121.062282,14.652704],[121.062282,14.652154],[121.06123,14.652154]]]}},
+    {"type":"Feature","properties":{name: "Albert Hall"},"geometry":{"type":"Polygon","coordinates":[[[121.06248,14.652413],[121.06248,14.652813],[121.063435,14.652813],[121.063435,14.652413],[121.06248,14.652413]]]}},
+    {"type":"Feature","properties":{name: "Faculty Center"},"geometry":{"type":"Polygon","coordinates":[[[121.067496,14.653114],[121.067496,14.653534],[121.068456,14.653534],[121.068456,14.653114],[121.067496,14.653114]]]}},
+    {"type":"Feature","properties":{name: "College of Arts and Letters"},"geometry":{"type":"Polygon","coordinates":[[[121.067174,14.652434],[121.067174,14.652849],[121.067721,14.652849],[121.067721,14.652434],[121.067174,14.652434]]]}},
+    {"type":"Feature","properties":{name: "Palma Hall"},"geometry":{"type":"Polygon","coordinates":[[[121.068837,14.653134],[121.068837,14.653731],[121.070618,14.653731],[121.070618,14.653134],[121.068837,14.653134]]]}},
+    {"type":"Feature","properties":{name: "Llamas Science Hall"},"geometry":{"type":"Polygon","coordinates":[[[121.06874,14.652512],[121.06874,14.65315],[121.070629,14.65315],[121.070629,14.652512],[121.06874,14.652512]]]}},
+    {"type":"Feature","properties":{name: "Zoology Hall"},"geometry":{"type":"Polygon","coordinates":[[[121.070811,14.6526],[121.070811,14.652984],[121.071557,14.652984],[121.071557,14.6526],[121.070811,14.6526]]]}},
+    {"type":"Feature","properties":{name: "Benites Hall"},"geometry":{"type":"Polygon","coordinates":[[[121.071739,14.652678],[121.071739,14.653254],[121.072732,14.653254],[121.072732,14.652678],[121.071739,14.652678]]]}},
+    {"type":"Feature","properties":{name: "UP Integrated School"},"geometry":{"type":"Polygon","coordinates":[[[121.073016,14.652579],[121.073016,14.653446],[121.074073,14.653446],[121.074073,14.652579],[121.073016,14.652579]]]}},
+    {"type":"Feature","properties":{name: "National Institute for Science and Mathematics Education"},"geometry":{"type":"Polygon","coordinates":[[[121.067249,14.651302],[121.067249,14.652138],[121.068462,14.652138],[121.068462,14.651302],[121.067249,14.651302]]]}},
+    {"type":"Feature","properties":{name: "College of Home Economics"},"geometry":{"type":"Polygon","coordinates":[[[121.07286,14.651515],[121.07286,14.652299],[121.073799,14.652299],[121.073799,14.651515],[121.07286,14.651515]]]}},
+    {"type":"Feature","properties":{name: "Marine Science Institute"},"geometry":{"type":"Polygon","coordinates":[[[121.068896,14.650119],[121.068896,14.651084],[121.069331,14.651084],[121.069331,14.650119],[121.068896,14.650119]]]}},
+    {"type":"Feature","properties":{name: "Institute of Biology"},"geometry":{"type":"Polygon","coordinates":[[[121.070344,14.650405],[121.070344,14.651214],[121.071138,14.651214],[121.071138,14.650405],[121.070344,14.650405]]]}},
+    {"type":"Feature","properties":{name: "National Institute of Molecular Biology and Biotechnology"},"geometry":{"type":"Polygon","coordinates":[[[121.071299,14.650565],[121.071299,14.650882],[121.07197,14.650882],[121.07197,14.650565],[121.071299,14.650565]]]}},
+    {"type":"Feature","properties":{name: "Institute of Chemistry"},"geometry":{"type":"Polygon","coordinates":[[[121.072716,14.650607],[121.072716,14.651095],[121.073558,14.651095],[121.073558,14.650607],[121.072716,14.650607]]]}},
+    {"type":"Feature","properties":{name: "Electronics and Electrical Engineering Institute"},"geometry":{"type":"Polygon","coordinates":[[[121.068038,14.649117],[121.068038,14.649989],[121.068601,14.649989],[121.068601,14.649117],[121.068038,14.649117]]]}},
+    {"type":"Feature","properties":{name: "College of Science"},"geometry":{"type":"Polygon","coordinates":[[[121.069229,14.648993],[121.069229,14.649507],[121.069749,14.649507],[121.069749,14.648993],[121.069229,14.648993]]]}},
+    {"type":"Feature","properties":{name: "Science and Computer Administration Building"},"geometry":{"type":"Polygon","coordinates":[[[121.070999,14.649564],[121.070999,14.649906],[121.071444,14.649906],[121.071444,14.649564],[121.070999,14.649564]]]}},
+    {"type":"Feature","properties":{name: "Department of Mining, Metallurgical, and Materials Engineering"},"geometry":{"type":"Polygon","coordinates":[[[121.067448,14.647763],[121.067448,14.648521],[121.068263,14.648521],[121.068263,14.647763],[121.067448,14.647763]]]}},
+    {"type":"Feature","properties":{name: "Department of Computer Science"},"geometry":{"type":"Polygon","coordinates":[[[121.068349,14.648303],[121.068349,14.648936],[121.068821,14.648936],[121.068821,14.648303],[121.068349,14.648303]]]}},
+    {"type":"Feature","properties":{name: "National Institute of Geological Sciences"},"geometry":{"type":"Polygon","coordinates":[[[121.069159,14.64769],[121.069159,14.648417],[121.069872,14.648417],[121.069872,14.64769],[121.069159,14.64769]]]}},
+    {"type":"Feature","properties":{name: "Mathematics Building"},"geometry":{"type":"Polygon","coordinates":[[[121.071042,14.64824],[121.071042,14.648905],[121.072211,14.648905],[121.072211,14.64824],[121.071042,14.64824]]]}},
+    {"type":"Feature","properties":{name: "National Institute of Physics"},"geometry":{"type":"Polygon","coordinates":[[[121.072576,14.648593],[121.072576,14.649527],[121.073617,14.649527],[121.073617,14.648593],[121.072576,14.648593]]]}},
 ]
 
 /**
  * Polygon representations of the dorms
  */
 const DORMS = [
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.067496,14.658407],[121.067496,14.658719],[121.068392,14.658719],[121.068392,14.658407],[121.067496,14.658407]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.067153,14.657702],[121.067153,14.658195],[121.068365,14.658195],[121.068365,14.657702],[121.067153,14.657702]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.06874,14.658563],[121.06874,14.659092],[121.069357,14.659092],[121.069357,14.658563],[121.06874,14.658563]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.068746,14.657722],[121.068746,14.658387],[121.069567,14.658387],[121.069567,14.657722],[121.068746,14.657722]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.069652,14.657691],[121.069652,14.65833],[121.070532,14.65833],[121.070532,14.657691],[121.069652,14.657691]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.073027,14.659118],[121.073027,14.65972],[121.073949,14.65972],[121.073949,14.659118],[121.073027,14.659118]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.070157,14.651432],[121.070157,14.652387],[121.070672,14.652387],[121.070672,14.651432],[121.070157,14.651432]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.070731,14.651941],[121.070731,14.65232],[121.071664,14.65232],[121.071664,14.651941],[121.070731,14.651941]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.062453,14.647887],[121.062453,14.648557],[121.062834,14.648557],[121.062834,14.647887],[121.062453,14.647887]]]}},
+    {"type":"Feature","properties":{name: "Sanggumay"},"geometry":{"type":"Polygon","coordinates":[[[121.067496,14.658407],[121.067496,14.658719],[121.068392,14.658719],[121.068392,14.658407],[121.067496,14.658407]]]}},
+    {"type":"Feature","properties":{name: "Molave"},"geometry":{"type":"Polygon","coordinates":[[[121.067153,14.657702],[121.067153,14.658195],[121.068365,14.658195],[121.068365,14.657702],[121.067153,14.657702]]]}},
+    {"type":"Feature","properties":{name: "Kalayaan"},"geometry":{"type":"Polygon","coordinates":[[[121.06874,14.658563],[121.06874,14.659092],[121.069357,14.659092],[121.069357,14.658563],[121.06874,14.658563]]]}},
+    {"type":"Feature","properties":{name: "Yakal"},"geometry":{"type":"Polygon","coordinates":[[[121.068746,14.657722],[121.068746,14.658387],[121.069567,14.658387],[121.069567,14.657722],[121.068746,14.657722]]]}},
+    {"type":"Feature","properties":{name: "Ipil"},"geometry":{"type":"Polygon","coordinates":[[[121.069652,14.657691],[121.069652,14.65833],[121.070532,14.65833],[121.070532,14.657691],[121.069652,14.657691]]]}},
+    {"type":"Feature","properties":{name: "Ilang-Ilang"},"geometry":{"type":"Polygon","coordinates":[[[121.073027,14.659118],[121.073027,14.65972],[121.073949,14.65972],[121.073949,14.659118],[121.073027,14.659118]]]}},
+    {"type":"Feature","properties":{name: "Kamia"},"geometry":{"type":"Polygon","coordinates":[[[121.070157,14.651432],[121.070157,14.652387],[121.070672,14.652387],[121.070672,14.651432],[121.070157,14.651432]]]}},
+    {"type":"Feature","properties":{name: "Sampaguita"},"geometry":{"type":"Polygon","coordinates":[[[121.070731,14.651941],[121.070731,14.65232],[121.071664,14.65232],[121.071664,14.651941],[121.070731,14.651941]]]}},
+    {"type":"Feature","properties":{name: "Kamagong"},"geometry":{"type":"Polygon","coordinates":[[[121.062453,14.647887],[121.062453,14.648557],[121.062834,14.648557],[121.062834,14.647887],[121.062453,14.647887]]]}},
 ]
 
 /**
  * Polygon representations of the attractions
  */
 const ATTRACTIONS = [
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.050968,14.65862],[121.050968,14.661443],[121.054637,14.661443],[121.054637,14.65862],[121.050968,14.65862]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.065795,14.656357],[121.065795,14.657209],[121.06645,14.657209],[121.06645,14.656357],[121.065795,14.656357]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.066858,14.65642],[121.066858,14.657115],[121.067244,14.657115],[121.067244,14.65642],[121.066858,14.65642]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.064444,14.654728],[121.064444,14.654998],[121.064969,14.654998],[121.064969,14.654728],[121.064444,14.654728]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.066493,14.654603],[121.066493,14.655465],[121.067609,14.655465],[121.067609,14.654603],[121.066493,14.654603]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.066632,14.653088],[121.066632,14.653482],[121.067051,14.653482],[121.067051,14.653088],[121.066632,14.653088]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.072254,14.65095],[121.072254,14.651251],[121.072619,14.651251],[121.072619,14.65095],[121.072254,14.65095]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.071675,14.649465],[121.071675,14.650036],[121.072222,14.650036],[121.072222,14.649465],[121.071675,14.649465]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.074711,14.649403],[121.074711,14.651583],[121.07558,14.651583],[121.07558,14.649403],[121.074711,14.649403]]]}},
+    {"type":"Feature","properties":{name: "Arboretum"},"geometry":{"type":"Polygon","coordinates":[[[121.050968,14.65862],[121.050968,14.661443],[121.054637,14.661443],[121.054637,14.65862],[121.050968,14.65862]]]}},
+    {"type":"Feature","properties":{name: "Villamor Hall (UP Theater)"},"geometry":{"type":"Polygon","coordinates":[[[121.065795,14.656357],[121.065795,14.657209],[121.06645,14.657209],[121.06645,14.656357],[121.065795,14.656357]]]}},
+    {"type":"Feature","properties":{name: "Film Center"},"geometry":{"type":"Polygon","coordinates":[[[121.066858,14.65642],[121.066858,14.657115],[121.067244,14.657115],[121.067244,14.65642],[121.066858,14.65642]]]}},
+    {"type":"Feature","properties":{name: "Oblation"},"geometry":{"type":"Polygon","coordinates":[[[121.064444,14.654728],[121.064444,14.654998],[121.064969,14.654998],[121.064969,14.654728],[121.064444,14.654728]]]}},
+    {"type":"Feature","properties":{name: "Sunken Garden"},"geometry":{"type":"Polygon","coordinates":[[[121.066493,14.654603],[121.066493,14.655465],[121.067609,14.655465],[121.067609,14.654603],[121.066493,14.654603]]]}},
+    {"type":"Feature","properties":{name: "Vargas Museum"},"geometry":{"type":"Polygon","coordinates":[[[121.066632,14.653088],[121.066632,14.653482],[121.067051,14.653482],[121.067051,14.653088],[121.066632,14.653088]]]}},
+    {"type":"Feature","properties":{name: "PAGASA Astrological Observatory"},"geometry":{"type":"Polygon","coordinates":[[[121.072254,14.65095],[121.072254,14.651251],[121.072619,14.651251],[121.072619,14.65095],[121.072254,14.65095]]]}},
+    {"type":"Feature","properties":{name: "Amphitheater"},"geometry":{"type":"Polygon","coordinates":[[[121.071675,14.649465],[121.071675,14.650036],[121.072222,14.650036],[121.072222,14.649465],[121.071675,14.649465]]]}},
+    {"type":"Feature","properties":{name: "UP Town Center"},"geometry":{"type":"Polygon","coordinates":[[[121.074711,14.649403],[121.074711,14.651583],[121.07558,14.651583],[121.07558,14.649403],[121.074711,14.649403]]]}},
 ]
 
 /**
  * Polygon representations of the services
  */
 const SERVICES = [
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.07146,14.660457],[121.07146,14.661205],[121.072319,14.661205],[121.072319,14.660457],[121.07146,14.660457]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.067373,14.65972],[121.067373,14.66052],[121.068317,14.66052],[121.068317,14.65972],[121.067373,14.65972]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.07057,14.659575],[121.07057,14.660115],[121.071492,14.660115],[121.071492,14.659575],[121.07057,14.659575]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.059498,14.652143],[121.059498,14.652776],[121.060377,14.652776],[121.060377,14.652143],[121.059498,14.652143]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.064508,14.652226],[121.064508,14.652569],[121.065055,14.652569],[121.065055,14.652226],[121.064508,14.652226]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.065999,14.651344],[121.065999,14.651801],[121.066825,14.651801],[121.066825,14.651344],[121.065999,14.651344]]]}},
-    {"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[121.062437,14.651489],[121.062437,14.652216],[121.063387,14.652216],[121.063387,14.651489],[121.062437,14.651489]]]}},
+    {"type":"Feature","properties":{name: "Area 1"},"geometry":{"type":"Polygon","coordinates":[[[121.07146,14.660457],[121.07146,14.661205],[121.072319,14.661205],[121.072319,14.660457],[121.07146,14.660457]]]}},
+    {"type":"Feature","properties":{name: "Area 2"},"geometry":{"type":"Polygon","coordinates":[[[121.067373,14.65972],[121.067373,14.66052],[121.068317,14.66052],[121.068317,14.65972],[121.067373,14.65972]]]}},
+    {"type":"Feature","properties":{name: "Health Service"},"geometry":{"type":"Polygon","coordinates":[[[121.07057,14.659575],[121.07057,14.660115],[121.071492,14.660115],[121.071492,14.659575],[121.07057,14.659575]]]}},
+    {"type":"Feature","properties":{name: "Veterinary Hospital"},"geometry":{"type":"Polygon","coordinates":[[[121.059498,14.652143],[121.059498,14.652776],[121.060377,14.652776],[121.060377,14.652143],[121.059498,14.652143]]]}},
+    {"type":"Feature","properties":{name: "University Press"},"geometry":{"type":"Polygon","coordinates":[[[121.064508,14.652226],[121.064508,14.652569],[121.065055,14.652569],[121.065055,14.652226],[121.064508,14.652226]]]}},
+    {"type":"Feature","properties":{name: "University Police and Fire Department"},"geometry":{"type":"Polygon","coordinates":[[[121.065999,14.651344],[121.065999,14.651801],[121.066825,14.651801],[121.066825,14.651344],[121.065999,14.651344]]]}},
+    {"type":"Feature","properties":{name: "Gyud Food"},"geometry":{"type":"Polygon","coordinates":[[[121.062437,14.651489],[121.062437,14.652216],[121.063387,14.652216],[121.063387,14.651489],[121.062437,14.651489]]]}},
 ]
 
 /**
@@ -237,6 +237,7 @@ const OPEN_STREET_MAP = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 });
 
+// Set ESRI World Imagery as default base layer
 ESRI_WORLD_IMAGERY.addTo(map);
 
 const baseMaps = {
@@ -254,7 +255,7 @@ var servicesPolygon = []
 for(let place of INSTITUTES) {
   L.geoJSON(place.geometry as any, {
     style: {"color": "blue", "weight": 0, "fillOpacity": 0}
-  }).bindTooltip("Institute").addTo(map)
+  }).bindTooltip(place.properties.name).addTo(map)
   intitutesPolygon.push(L.geoJSON(place.geometry as any, {
     style: {"color": "blue", "weight": 1, "fillOpacity": 0.4}
   }))
@@ -263,7 +264,7 @@ for(let place of INSTITUTES) {
 for(let place of DORMS) {
  L.geoJSON(place.geometry as any, {
     style: {"color": "red", "weight": 0, "fillOpacity": 0}
-  }).bindTooltip("Dorm").addTo(map)
+  }).bindTooltip(place.properties.name).addTo(map)
   dormsPolygon.push(L.geoJSON(place.geometry as any, {
     style: {"color": "red", "weight": 1, "fillOpacity": 0.4}
   }))
@@ -272,7 +273,7 @@ for(let place of DORMS) {
 for(let place of ATTRACTIONS) {
   L.geoJSON(place.geometry as any, {
     style: {"color": "green", "weight": 0, "fillOpacity": 0}
-  }).bindTooltip("Attraction").addTo(map)
+  }).bindTooltip(place.properties.name).addTo(map)
   attractionsPolygon.push(L.geoJSON(place.geometry as any, {
     style: {"color": "green", "weight": 1, "fillOpacity": 0.4}
   }))
@@ -281,7 +282,7 @@ for(let place of ATTRACTIONS) {
 for(let place of SERVICES) {
   L.geoJSON(place.geometry as any, {
     style: {"color": "yellow", "weight": 0, "fillOpacity": 0}
-  }).bindTooltip("Service").addTo(map)
+  }).bindTooltip(place.properties.name).addTo(map)
   servicesPolygon.push(L.geoJSON(place.geometry as any, {
     style: {"color": "yellow", "weight": 1, "fillOpacity": 0.4}
   }))
