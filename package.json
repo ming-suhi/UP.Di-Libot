@@ -1,17 +1,18 @@
 {
   "name": "up_di-libot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "build:dev": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json"
   },
-  "author": "",
+  "author": "Kyle Taton",
   "license": "MIT",
   "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
     "@turf/turf": "^7.0.0",
     "@types/geojson": "^7946.0.14",
-    "@types/leaflet": "^1.9.12",
-    "typescript": "^5.4.5"
+    "@types/leaflet": "^1.9.12"
   }
 }
